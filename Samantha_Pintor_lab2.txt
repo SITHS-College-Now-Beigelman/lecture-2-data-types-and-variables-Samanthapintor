@@ -37,7 +37,9 @@ int main ()
     Enter the number of ounces in that cereal
     8
     Enter the number of calories of that cereal
-    902.3
-    112
-    One serving of cheerios is 8 ounces and has 112 calories per ounce.
+    800
+    One serving of cheerios is 8 ounces and has 100 calories per ounce.
+    How many calories of cereal is the user willing to eat today?
+    700
+    The user can eat 7 ounces and stay within 700 .
 */
