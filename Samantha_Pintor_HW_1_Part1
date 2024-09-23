@@ -25,3 +25,27 @@ int main ()
     cout << "What is your weight in kilograms?" << endl; //Asking about weight in kilograms
     cin >> weightKilo; 
     
+    //calculating calories burned at different speeds
+    cout << "You burn " << (duration)*(walkingSlowly*threeandahalf*weightKilo)/twohundred << " calories when walking slowly." << endl; //calculating calories burned when walking slowly
+    cout << "You burn " << (duration)*(walkingQuickly*threeandahalf*weightKilo)/twohundred << " calories when walking quickly." << endl; //calculating calories burned when walking quickly
+    cout << "You burn " << (duration)*(jogging*threeandahalf*weightKilo)/twohundred << " calories when jogging." << endl; //calculating calories burned when jogging
+
+    //Extra Credit
+    cout << "How many calories do you want to burn?" << endl;    //asking the user how many calories they want to burn 
+    cin >> caloriesWant; 
+    cout << "What is your weight in kilograms?" << endl;    //asking the user their weight in kilograms
+    cin >> weightKilo; 
+
+    //table 
+    cout << "#######################################################################################################33###########" << endl; 
+    cout << "#                                                                                                                  #" << endl;
+    cout << "# Walking slowly = " << (caloriesWant)/(walkingSlowly*threeandahalf*weightKilo)/twohundred << "calories burned     #" << endl;
+    cout << "# Walking quickly = " << (caloriesWant)/(walkingQuickly*threeandahalf*weightKilo)/twohundred << "calories burned   #"<< endl; 
+    cout << "# Jogging = " << (caloriesWant)/(jogging*threeandahalf*weightKilo)/twohundred << "calories burned                  #"<< endl; 
+    cout << "#######################################################################################################33###########" << endl; 
+
+
+
+
+    return 0;
+}
