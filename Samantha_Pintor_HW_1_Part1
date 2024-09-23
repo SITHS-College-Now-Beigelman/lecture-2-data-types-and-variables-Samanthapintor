@@ -1,0 +1,27 @@
+//Samantha Pintor
+//9-23-24
+//HW 1 - Part 1 
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    //variables
+    double timecaloriesburned; 
+    double duration; 
+    double weightKilo;
+    double calories;
+    double walkingSlowly = 2; 
+    double walkingQuickly = 3; 
+    float jogging = 8.8; 
+    float threeandahalf = 3.5;
+    float twohundred =200; 
+    double caloriesWant; 
+
+    //asking the user 
+    cout << "What is your excercise duration in minutes?" << endl; //Asking about excercise duration
+    cin >> duration; 
+    cout << "What is your weight in kilograms?" << endl; //Asking about weight in kilograms
+    cin >> weightKilo; 
+    
