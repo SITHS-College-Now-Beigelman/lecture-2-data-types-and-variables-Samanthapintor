@@ -33,14 +33,17 @@ int main ()
     cout << "6/4 + 3.9 = " << 6/4 + 3.9 << endl;
     cout << "5.4 * 2 -(13.6 + 18/2) = " << 5.4 * 2 -(13.6 + 18/2) << endl;
 
-    /*
-    int:7
-    float:7.77
-    double:7.71
-    char:Q
-    A < B = 1
-    2 + 3.5 = 5.5
-    6/4 + 3.9 = 4.9
-    5.4 * 2 -(13.6 + 18/2) = -11.8
-    */
     
+    return 0; 
+}
+
+/*
+int:7
+float:7.77
+double:7.71
+char:Q
+A < B = 1
+2 + 3.5 = 5.5
+6/4 + 3.9 = 4.9
+5.4 * 2 -(13.6 + 18/2) = -11.8
+PS C:\Users\college\Documents\GitHub\lab-1-cout-statements-Samanthapintor>*/
